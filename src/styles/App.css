@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.background {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    max-width: 40rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 750px) {
+    .advice-overlay {
+        margin: 0 2rem;
+    }
+}

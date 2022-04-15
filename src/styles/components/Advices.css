@@ -1,0 +1,64 @@
+.advice__container {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    position: relative;
+}
+
+.advice__number {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.advice__text {
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.advice__divider--desktop {
+    padding: 1.7rem 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.advice__divider--mobile {
+    display: none;
+    padding: 1.7rem 0;
+}
+
+.advice__button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.advice__button {
+    background-color: hsl(150, 100%, 66%);
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 1rem;
+    border-radius: 100%;
+    position: absolute;
+    top: 0.7rem;
+    transition: 0.3s all;
+}
+
+.advice__button:hover {
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 750px) {
+    .advice__divider--desktop {
+        display: none;
+    }
+
+    .advice__divider--mobile {
+        display: block;
+        margin: 0 auto;
+    }
+
+}
